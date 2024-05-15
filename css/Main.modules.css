@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #c3e9fe;
+}
+
+.main__section {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-items: center;
+  column-gap: 70px;
+  row-gap: 50px;
+}
+.main__section__text__title {
+  color: #009999;
+  padding: 30px 70px;
+}
+.main__section__cards__text {
+  color: #a2a2a2;
+}/*# sourceMappingURL=Main.modules.css.map */

@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 70px;
+}
+.header__title__text {
+  color: #3399cc;
+}
+.header__nav__ul {
+  display: flex;
+}
+.header__nav__ul__list {
+  list-style-type: none;
+  margin-right: 40px;
+}
+.header__nav__ul__link {
+  text-decoration: none;
+  color: #6e6e6e;
+  font-weight: bold;
+}/*# sourceMappingURL=Header.modules.css.map */

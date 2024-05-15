@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 70px;
+  &__title {
+    &__text {
+      color: #3399cc;
+    }
+  }
+  &__nav {
+    &__ul {
+      display: flex;
+      &__list {
+        list-style-type: none;
+        margin-right: 40px;
+      }
+      &__link {
+        text-decoration: none;
+        color: #6e6e6e;
+        font-weight: bold;
+      }
+    }
+  }
+}
